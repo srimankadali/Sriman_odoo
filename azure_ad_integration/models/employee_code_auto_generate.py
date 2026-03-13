@@ -13,7 +13,7 @@ class HrEmployeeInherit(models.Model):
         string='Emp Code',
         copy=False,
         index=True,
-        readonly=True,
+        # readonly=True,
         store=True,
         help="Unique employee code (e.g., P0001, TCIP0012, BC0005)"
     )
